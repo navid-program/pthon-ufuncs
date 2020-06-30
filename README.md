@@ -1,0 +1,2 @@
+# pthon-ufuncs
+ufuncs means (Universal function). It has different defination in other  places in numpy.universal  functions are those operates on nd arrays in element  faction.It allows you to program arrays,broadcasting,typecasting and so on.Ufuncs are extremely flexible before we saw an operation between a scalar and an array, but we can also operate between two arrays,and ufunc operations are not limited to one-dimensional arrays.they can act on multidimensional arrays as well.
