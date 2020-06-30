@@ -1,0 +1,11 @@
+#if you create your own ufunc
+#or like create a normal functions in python
+#then you add it to your numpy ufunc library with
+#the frompyfunc() method.
+
+import numpy as np
+
+def sum(x,y):
+    return x+y
+sum= np.frompyfunc(sum,2,1)
+print(sum([10,12,15,20,45],[23,45,67,89,90]))
